@@ -11,7 +11,9 @@
   "description": "",
   "dependencies": {
     "express": "^4.18.2",
-    "serverless-http": "^3.1.0"
+    "node-cache": "^5.1.2",
+    "serverless-http": "^3.1.0",
+    "unirest": "^0.6.0"
   },
   "devDependencies": {
     "netlify-lambda": "^0.4.0"
