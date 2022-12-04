@@ -1,0 +1,16 @@
+{
+  "name": "notforsale",
+  "version": "1.0.0",
+  "main": "functions/core.js",
+  "scripts": {
+    "build": "netlify-lambda build server"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "express": "^4.18.2",
+    "serverless-http": "^3.1.0"
+  }
+}
