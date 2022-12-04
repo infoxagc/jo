@@ -3,6 +3,8 @@ const fs = require("fs");
 const express = require("express");
 const app = express();
 
+app.use("/assets", express.static("assets"));
+
 const getFile = async (path) => {
   return new Promise((resolve, reject) => {
     fs.readFile(process.cwd() + "/" + path, "utf-8", (err, data) => {
